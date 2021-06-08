@@ -96,8 +96,8 @@ for (k = 1; k < 4; k++) {
 let a;
 let var8= prompt('What is the color of Apple??');
 let color = ['red', 'yellow', 'green'];
-let number_of_tries_postive = 7;
-for (a = 1; a < 7; a++) {
+let number_of_tries_postive = 6;
+for (a = 1; a < 6; a++) {
 
     if (var8 === 'red' || var8 === 'yellow' || var8 === "green") {
         console.log('correct');
@@ -107,7 +107,7 @@ for (a = 1; a < 7; a++) {
     } else {
         var8 = prompt('that is wrong try again! ,Number of tries Left :' + (number_of_tries_postive - a));
     }
-    if (a == 6) {
+    if (a == 5) {
         alert('sorry  The correct answer is red or yellow or green');
 
     }
