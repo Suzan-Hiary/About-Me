@@ -9,7 +9,7 @@ if (var2==='yes'|| var2=== 'y') {
     alert('Congrats that is awesome ^_^') ;
 }
 if (var2==='no'|| var2==="n"){
-    alert(' i hope you will do soon ^_^');
+    alert(' i hope you will  soon ^_^');
 }
 else {  console.log(var2)
 };
@@ -56,7 +56,7 @@ if (var6==='yes'|| var6=== 'y') {
     alert(' thanks^_^ ' + var1) ;
 }
 if (var6==='no'|| var6==="n"){
-    alert(var1 + ' i hope ypu will change your mind the next time!!');
+    alert(var1 + ' i hope you will change your mind the next time!!');
 } else {
     console.log(var6);
 }
