@@ -1,17 +1,25 @@
-header img{
+ #img1{
 
-    width:100px;
-    height: 50px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px
+    
+    
 }
 body{
     background-color: mediumturquoise;
 }
 nav {
-    border-style: solid; 
-    color:darkslategrey ;
+    text-align: center;
+    color:blueviolet ;
     background-color:rosybrown;
 }
+
 h1 {
+    background: #1abc9c;
+    padding: 60px;
+    width: 100px ;
 color:indianred;
 border-block-start-style:solid ;
 
@@ -23,11 +31,12 @@ color:mediumorchid;
 
 }
  #img3 {
-    width:200px;
-    height:150px;
+   
 }
 #img2{
-width:300px;
-height:300px;
-
+   
+    float: right;
+    width: 300px;
+    border: 3px solid #2198ad;
+    padding: 10px
 }
