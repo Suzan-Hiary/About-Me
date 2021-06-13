@@ -1,4 +1,4 @@
-/*let d = 0;
+let d = 0;
 let var1 = prompt('please enter your name ?');
 
 alert('Hello ' + var1);
@@ -30,7 +30,7 @@ function guessNumber() {
     let k;
     let number_of_tries = 4;
     for (k = 1; k < 4; k++) {
-        if (var7 == 3) {
+        if (var7 === 3) {
            
             alert('Correct Answer');
             d++;
@@ -42,7 +42,7 @@ function guessNumber() {
             if (var7 < 3) {
                 var7 = prompt('too low please try again ,Number of tries Left: ' + (number_of_tries - k));
             }
-        if (k == 3) {
+        if (k !== 3) {
             alert('sorry you have reached the limit of tries - correct answer is 3');
         }
     }
@@ -71,4 +71,3 @@ function appleQuestion() {
 }
 appleQuestion();
 alert('your score is : ' + d);
-*/
